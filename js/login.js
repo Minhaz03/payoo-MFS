@@ -25,4 +25,4 @@ document.getElementById('btn-login').addEventListener('click', function(event){
         console.log('Wrong phone or pin try again');
     }
 
-})
+});
