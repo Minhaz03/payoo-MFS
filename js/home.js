@@ -19,7 +19,7 @@
 
 
 // step-1- add an event handler to the add money button inside form
-document.getElementById('btn-add-money').addEventListener('click', function(event){
+document.getElementById('btn-add-money').addEventListener('click', function (event) {
     // prevent page reload after form submit
     event.preventDefault();
 
@@ -28,11 +28,11 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
     console.log(addMoneyInput);
 
     // get the pin number
-    const pinNumberInput =  document.getElementById('input-pin-number').value;
+    const pinNumberInput = document.getElementById('input-pin-number').value;
     console.log(pinNumberInput);
 
     // step-3- verify the pin number && not the right way
-    if (pinNumberInput === '1234'){
+    if (pinNumberInput === '1234') {
         console.log('adding money to account')
 
         // step-4- get the current balance
@@ -49,7 +49,7 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
         document.getElementById('account-balance').innerText = newBalance;
 
     }
-    else{
+    else {
         alert('failed pls try again')
         console.log('failed pls try again')
     }

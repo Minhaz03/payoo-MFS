@@ -12,7 +12,7 @@ document.getElementById('btn-show-cash-out').addEventListener('click', function(
 
 
 // show add money form and hide the cash out form
-document.getElementById('btn-shoe-add-money').addEventListener('click', function(){
+document.getElementById('btn-show-add-money').addEventListener('click', function(){
     document.getElementById('add-money-form').classList.remove('hidden');
 
     document.getElementById('cash-out-form').classList.add('hidden');
