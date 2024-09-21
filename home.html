@@ -38,7 +38,7 @@
                     <div class="divider"></div>
 
                     <!-- add money form -->
-                    <div id="add-money-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div id="add-money-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                             <div class="form-control">
                                 <label class="label">
@@ -87,25 +87,10 @@
 
                     <!-- transaction start -->
                     <div id="Transaction-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                        <form class="card-body">
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Amount</span>
-                                </label>
-                                <input id="input-cash-out" type="text" placeholder="Transaction Amount"
-                                    class="input input-bordered" required />
-                            </div>
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Pin</span>
-                                </label>
-                                <input id="input-cash-out-pin" type="password" placeholder="Pin Number"
-                                    class="input input-bordered" autocomplete="off" required />
-                            </div>
-                            <div class="form-control mt-6">
-                                <button id="btn-cash-out" class="btn btn-primary">Transaction</button>
-                            </div>
-                        </form>
+                        <h2 class="flex justify-center font-bold">Transaction History</h2>
+                        <div id="transaction-container" class="flex justify-start ml-2 space-y-3">
+
+                        </div>
                     </div>
                     <!-- transaction end -->
 
